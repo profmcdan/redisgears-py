@@ -36,7 +36,7 @@ for r in res[0]:
 
 ## Installing
 ```
-pip install git+https://github.com/RedisGears/redisgears-py.git
+pip install pyredisgears
 ```
 Notice that the library also need to be installed in RedisGears virtual env.
 
