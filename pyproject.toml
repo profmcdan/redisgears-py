@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyredisgears"
-version = "2.0.0"
+version = "2.0.1"
 description = "RedisGears Python Client"
 authors = ["Redis <oss@redis.com>"]
 license = "BSD-3-Clause"
@@ -20,9 +20,10 @@ keywords = ["Redis JSON Extension"]
 
 [tool.poetry.dependencies]
 python = "^3.9, <3.12"
-redis = "^5.2.1"
 six = "^1.17.0"
 cloudpickle = "^3.1.0"
+redis = "4.3.6"
+rltest = "0.5.8"
 
 
 [tool.poetry.urls]
@@ -32,7 +33,6 @@ repository = "https://github.com/RedisGears/redisgears-py"
 [tool.poetry.dev-dependencies]
 
 [tool.poetry.group.dev.dependencies]
-rltest = "^0.7.14"
 codecov = "^2.1.13"
 flake8 = "^7.1.1"
 tox-poetry = "^0.5.0"
