@@ -1,5 +1,5 @@
-from gearsclient import GearsRemoteBuilder as GRB
-from gearsclient import execute, atomic
+from pyredisgears import GearsRemoteBuilder as GRB
+from pyredisgears import execute, atomic
 import redis
 
 conn = redis.Redis(host='localhost', port=6379)

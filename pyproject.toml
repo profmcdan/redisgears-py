@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "gearsclient"
+name = "pyredisgears"
 version = "1.0.3"
 description = "RedisGears Python Client"
 authors = ["Redis <oss@redis.com>"]
@@ -10,8 +10,8 @@ classifiers = [
     'Topic :: Database',
     'Programming Language :: Python',
     'Intended Audience :: Developers',
-    'Programming Language :: Python :: 3.6',
-    'Programming Language :: Python :: 3.7',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.12',
     'License :: OSI Approved :: BSD License',
     'Operating System :: OS Independent',
     'Development Status :: 5 - Production/Stable'

@@ -1,5 +1,5 @@
-from gearsclient import GearsRemoteBuilder as GRB
-from gearsclient import log, hashtag, execute, atomic
+from pyredisgears import GearsRemoteBuilder as GRB
+from pyredisgears import log, hashtag, execute, atomic
 
 counter = 0
 
