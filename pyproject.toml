@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "gearsclient"
-version = "1.0.2"
+version = "1.0.3"
 description = "RedisGears Python Client"
 authors = ["Redis <oss@redis.com>"]
 license = "BSD-3-Clause"
@@ -19,24 +19,26 @@ classifiers = [
 keywords = ["Redis JSON Extension"]
 
 [tool.poetry.dependencies]
-python = "^3.6, <3.8"
-redis = "3.5.3"
-six = "^1.16.0"
-cloudpickle = "^1.6.0"
+python = "^3.9, <3.12"
+redis = "^5.2.1"
+six = "^1.17.0"
+cloudpickle = "^3.1.0"
+
 
 [tool.poetry.urls]
 url = "https://redisgears.io"
 repository = "https://github.com/RedisGears/redisgears-py"
 
 [tool.poetry.dev-dependencies]
-codecov = "^2.1.11"
-flake8 = "^3.9.2"
-tox = "^3.23.1"
-tox-poetry = "^0.3.0"
-bandit = "^1.7.0"
-vulture = "^2.3"
-distro = "^1.5.0"
-rltest = "0.4.2"
+
+[tool.poetry.group.dev.dependencies]
+rltest = "^0.7.14"
+codecov = "^2.1.13"
+flake8 = "^7.1.1"
+tox-poetry = "^0.5.0"
+bandit = "^1.8.0"
+vulture = "^2.14"
+distro = "^1.9.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
